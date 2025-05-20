@@ -39,7 +39,7 @@ export default function Form({ state, dispatch, setIsRegistered }: FormProps) {
 
     return (
         <div className="flex flex-col gap-4 w-full sm:w-3/4 md:w-1/2 lg:w-1/3">
-            <h1 className="text-4xl text-center">Your Journey to Coding Conf 2025 Starts Here!</h1>
+            <h1 className="text-4xl text-center p-4">Your Journey to Coding Conf 2025 Starts Here!</h1>
             <p className="text-center">Secure your spot at next year's biggest coding conference</p>
             <form action="" className="px-4 flex flex-col gap-1" onSubmit={handleSubmit}>
                 <label htmlFor="file">Upload Avatar</label>
