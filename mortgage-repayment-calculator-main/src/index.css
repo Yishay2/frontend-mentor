@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  /* Typography */
+  --font-body: "Plus Jakarta Sans", sans-serif;
+
+  /* Breakpoints */
+  --breakpoint-mobile: 375px;
+  --breakpoint-desktop: 1440px;
+
+  /* Primary Colors */
+  --color-lime: hsl(61, 70%, 52%);
+  --color-red: hsl(4, 69%, 50%);
+
+  /* Neutral Colors */
+  --color-white: hsl(0, 0%, 100%);
+  --color-slate-100: hsl(202, 86%, 94%);
+  --color-slate-300: hsl(203, 41%, 72%);
+  --color-slate-500: hsl(200, 26%, 54%);
+  --color-slate-700: hsl(200, 24%, 40%);
+  --color-slate-900: hsl(202, 55%, 16%);
+
+  /* Font Sizes */
+  --font-size-base: 16px;
+}
+
+/* globals.css */
+.input-no-arrows::-webkit-outer-spin-button,
+.input-no-arrows::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.input-no-arrows {
+  -moz-appearance: textfield;
+}
