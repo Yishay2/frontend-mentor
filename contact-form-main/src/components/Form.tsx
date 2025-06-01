@@ -94,7 +94,7 @@ export default function ContactForm() {
     };
 
     return (
-        <form className="w-full max-w-lg p-4 bg-white rounded-lg flex flex-col gap-4 text-gray-700 text-sm font-semibold mx-auto">
+        <form onSubmit={handleSubmit} className="w-full max-w-lg p-4 bg-white rounded-lg flex flex-col gap-4 text-gray-700 text-sm font-semibold mx-auto">
             <h1 className="text-gray-900 font-bold text-xl">Contact Us</h1>
 
             <div className="flex flex-col xl:flex-row justify-between gap-4">
