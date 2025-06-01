@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  /* Font Family */
+  --font-karla: "Karla", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+  /* Custom Colors - Primary */
+  --color-green-200: oklch(0.91 0.04 148);
+  --color-green-600: oklch(0.27 0.21 169);
+  --color-red: oklch(0.54 0.22 0);
+
+  /* Custom Colors - Neutral */
+  --color-white: oklch(1 0 0);
+  --color-grey-500: oklch(0.59 0.04 186);
+  --color-grey-900: oklch(0.22 0.03 187);
+
+  /* Responsive Breakpoints */
+  --breakpoint-mobile: 375px;
+  --breakpoint-desktop: 1440px;
+}
